@@ -1,0 +1,35 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(20, 17, 12, 0.87);
+  background-color: oklch(79.611% 0.06631 74.989);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: flex-start; /* Mantém no topo */
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.botoes {
+  display: flex;
+  gap: 10px; /* Espaço entre botões */
+  justify-content: center;
+  margin-top: 10px;
+}
